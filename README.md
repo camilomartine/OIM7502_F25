@@ -1,5 +1,5 @@
 
-# Learning Python in Babson
+# Learning Python in Babson.
 
 This repository contains my Python learning materials and projects from Babson College.
 
