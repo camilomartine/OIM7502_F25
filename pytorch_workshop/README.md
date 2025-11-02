@@ -8,7 +8,7 @@
 
 ## Overview
 
-This educational project provides a comprehensive introduction to PyTorch, starting from tensor creation and manipulation, progressing through matrix operations and automatic differentiation (autograd), and culminating in building a complete binary classification neural network from scratch. Students will learn the fundamental building blocks—tensors, layers, activations, and loss functions—before combining them into a working model with the architecture: Input (2) → Hidden (16) → Hidden (16) → Output (1).
+This educational project provides a comprehensive introduction to PyTorch, starting from tensor creation and manipulation, progressing through matrix operations and culminating in building a complete binary classification neural network from scratch. Students will learn the fundamental building blocks—tensors, layers, activations, and loss functions—before combining them into a working model.
 
 This package includes:
 - **model_utils/**: Modular code for import to test what is built in the notebook
@@ -62,7 +62,7 @@ results = train_model(
 predictions = make_predictions(model, X_test, device=device)
 ```
 
-## API Reference
+## Files Reference
 
 ### Model
 - `BinaryClassifier(input_size=2, hidden_1=16, hidden_2=16, output_size=1)` - Neural network class
